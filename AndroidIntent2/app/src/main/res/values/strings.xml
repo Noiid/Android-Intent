@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidIntent2</string>
+    <string name="url">http://www.polinema.ac.id</string>
+    <string name="open_website">Open Website</string>
+    <string name="polinema">Politeknik Negeri Malang</string>
+    <string name="location">Open Location</string>
+</resources>

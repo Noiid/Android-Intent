@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrasi"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edittext_nama"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edittext"
+            android:hint="Nama"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edittext_alamat"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edittext"
+            android:hint="Alamat"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edittext_noh"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edittext"
+            android:hint="No Hp"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="launchResult"
+            android:paddingLeft="10dp"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
